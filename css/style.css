@@ -16,15 +16,42 @@ body {
 }
 
 /* HEADER */
-.logo {
+.header-top {
     height: 120px;
-    background-color: palevioletred;
 }
 
-.presentation {
-    height: 400px;
+.logo img {
+    width: auto;
+    height: 70px;
+}
+
+/* Menu */
+nav {
+    margin-top: 40px;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #a9a9a9;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+/* Banner */
+.banner {
+    height: 500px;
     background-color: lightgreen;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 /* Structure */
