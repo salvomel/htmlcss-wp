@@ -101,7 +101,7 @@ main {
 }
 
 .title {
-    margin: 30px 0;
+    margin: 40px 0;
 }
 
 .title h1 {
@@ -110,6 +110,7 @@ main {
 
 .title p {
     color: #a9a9a9;
+    font-weight: bold;
 }
 
 .col-left, .col-right {
@@ -134,6 +135,16 @@ main {
     border-radius: 10px;
 }
 
+.main-text h3 {
+    font-size: 16px;
+    margin: 30px 0 10px;
+}
+
+.main-text p {
+    color: #a9a9a9;
+    font-weight: bold;
+
+}
 
 /* FOOTER */
 footer {
