@@ -1,0 +1,74 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    font-family: "Montserrat", Arial;
+}
+
+/* HEADER */
+.logo {
+    height: 120px;
+    background-color: palevioletred;
+}
+
+.presentation {
+    height: 400px;
+    background-color: lightgreen;
+    margin-top: 20px;
+}
+
+/* Structure */
+.col {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* MAIN */
+main {
+    background-color: steelblue;
+    margin: 20px 0;
+    padding-bottom: 5px;
+}
+
+.title {
+    height: 70px;
+    background-color: lightblue;
+}
+
+.content-left, .content-right {
+    width: 23%;
+    height: 600px;
+    background-color: lightblue;
+}
+
+.content-center {
+    width: 50%;
+    margin: 0 2%;
+    height: 600px;
+    background-color: lightblue;
+}
+
+.main-content {
+    margin: 20px 0;
+}
+
+/* FOOTER */
+footer {
+    height: 50px;
+    background-color: purple;
+}
